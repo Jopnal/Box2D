@@ -17,6 +17,8 @@ option(BOX2D_BUILD_EXAMPLES "Build Box2D examples" ON)
 set(BOX2D_VERSION 2.3.2)
 set(LIB_INSTALL_DIR lib${LIB_SUFFIX})
 
+set(LIBRARY_OUTPUT_PATH "${PROJECT_BINARY_DIR}/lib")
+
 # The Box2D library.
 add_subdirectory(include/Box2D)
 
