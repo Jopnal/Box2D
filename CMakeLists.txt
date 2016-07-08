@@ -18,7 +18,7 @@ set(BOX2D_VERSION 2.3.2)
 set(LIB_INSTALL_DIR lib${LIB_SUFFIX})
 
 # The Box2D library.
-add_subdirectory(Box2D)
+add_subdirectory(include/Box2D)
 
 if(BOX2D_BUILD_EXAMPLES)
   # HelloWorld console example.
