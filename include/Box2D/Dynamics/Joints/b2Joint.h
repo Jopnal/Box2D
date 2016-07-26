@@ -25,7 +25,6 @@ class b2Body;
 class b2Joint;
 struct b2SolverData;
 class b2BlockAllocator;
-class b2World;
 
 enum b2JointType
 {
